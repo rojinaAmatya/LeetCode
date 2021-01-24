@@ -16,10 +16,8 @@ Explanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then
 def shuffle(nums,n):
     newList =[]
     for i in range(n):
-        #newList.append(nums[i])
-        print(nums[i])
-        #print(nums[n+i])
-        #newList.append(nums[n+i])
+        newList.append(nums[i])
+        newList.append(nums[n+i])
     return newList
 
 print(shuffle([2,5,1,3,4,7],3))
